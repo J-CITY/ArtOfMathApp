@@ -1,7 +1,7 @@
 # Art of Math
 App to visualise fractal (awesome wallpaper)
 
-![Beautiful example](https://github.com/J-CITY/TinyWinToast/blob/master/examples/mc.png)
+![Beautiful example](https://github.com/J-CITY/ArtOfMathApp/blob/master/examples/mc.png)
 
 **Features**
 * All parametrs takes from **toml** config
@@ -36,8 +36,8 @@ App to visualise fractal (awesome wallpaper)
 
 More examples in ```./example``` folder
 
-![1](https://github.com/J-CITY/TinyWinToast/blob/master/examples/script.png)
+![1](https://github.com/J-CITY/ArtOfMathApp/blob/master/examples/script.png)
 
-![2](https://github.com/J-CITY/TinyWinToast/blob/master/examples/m1.png)
+![2](https://github.com/J-CITY/ArtOfMathApp/blob/master/examples/m1.png)
 
-![3](https://github.com/J-CITY/TinyWinToast/blob/master/examples/c7.png)
+![3](https://github.com/J-CITY/ArtOfMathApp/blob/master/examples/c7.png)
