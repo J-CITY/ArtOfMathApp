@@ -1,0 +1,7 @@
+#Crystal
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "F+F+F+F"
+rules = ["F:FF+F++F+F"]
+angle = 90.0

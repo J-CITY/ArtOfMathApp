@@ -1,0 +1,12 @@
+#L-System Leaf
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "a"
+rules = ["F:>F<",
+    "a:F[+x]Fb",
+    "b:F[-y]Fa",
+    "x:a",
+    "y:b"]
+angle = 45.0
+scale_factor = 1.36

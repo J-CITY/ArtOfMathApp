@@ -1,0 +1,7 @@
+#Serpinskiy grid
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "FXF--FF--FF"
+rules = ["F:FF", "X:--FXF++FXF++FXF--"]
+angle = 60.0

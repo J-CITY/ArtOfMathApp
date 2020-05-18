@@ -1,0 +1,27 @@
+#L-System sticks 2
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "aF"
+rules = ["a:FFFFFv[+++h][---q]fb",
+    "b:FFFFFv[+++h][---q]fc",
+    "c:FFFFFv[+++fa]fd",
+    "d:FFFFFv[+++h][---q]fe",
+    "e:FFFFFv[+++h][---q]fg",
+    "g:FFFFFv[---fa]fa",
+    "h:ifFF",
+    "i:fFFF[--m]j",
+    "j:fFFF[--n]k",
+    "k:fFFF[--o]l",
+    "l:fFFF[--p]",
+    "m:fFn",
+    "n:fFo",
+    "o:fFp",
+    "p:fF",
+    "q:rfF",
+    "r:fFFF[++m]s",
+    "s:fFFF[++n]t",
+    "t:fFFF[++o]u",
+    "u:fFFF[++p]",
+    "v:Fv"]
+angle = 12.0

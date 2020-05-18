@@ -1,0 +1,8 @@
+#L-System sticks 1
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "X"
+rules = ["F:FF"m
+    "X:F[+X]F[-X]+X"]
+angle = 20.0

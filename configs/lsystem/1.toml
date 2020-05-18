@@ -1,0 +1,11 @@
+iterations = 7                                              # recursion count
+iterations_to = 10                                          # end count if want video or slideshow
+distance = 3                                                # line size
+angle = 45.0                                                # rotate angle
+scale_factor = 1.36                                         # for distance
+axiom = "a"                                                 # main l system axiom
+rules = ["F:>F<", "a:F[+x]Fb", "b:F[-y]Fa", "x:a", "y:b"]   # other rules
+is_step_by_step = false                                     # if want save frame after every ne line
+line_width = 3                                              # line width in pixels
+line_width_step = 0                                         # coef increase width
+angle_step = 0                                              # coef increase angle

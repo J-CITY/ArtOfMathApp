@@ -1,0 +1,7 @@
+#Classic Sierpinski Curve
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "F--XF--F--XF"
+rules = ["X:XF+F+XF--F--XF+F+X"]
+angle = 45.0

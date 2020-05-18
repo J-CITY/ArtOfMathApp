@@ -1,0 +1,297 @@
+#L-System Leaf
+axiom = "a"
+rules = ["F:>F<",
+    "a:F[+x]Fb",
+    "b:F[-y]Fa",
+    "x:a",
+    "y:b"]
+angle = 45.0
+scale_factor = 1.36
+
+# L-System Bushes
+axiom = "Y"
+rules = ["X:X[-FFF][+FFF]FX", "Y:YFX[+Y][-Y]"]
+angle = 25.7
+
+# L-System Bushes 1
+axiom = "F"
+rules = ["F:FF+[+F-F-F]-[-F+F+F]"]
+angle = 22.5
+
+# L-System Bushes 2
+axiom = "F"
+rules = ["F:F[+FF][-FF]F[-F][+F]F"]
+angle = 35.0
+
+#L-System Bushes 3
+axiom = "VZFFF"
+rules = ["V:[+++W][---W]YV",
+    "W:+X[-W]Z",
+    "X:-W[+X]Z",
+    "Y:YZ<
+    "Z:[-FFF][+FFF]F"]
+angle = 20
+
+# L-System Bushes 4
+axiom = "FX"
+rules = ["X:>[-FX]+FX"]
+angle = 40.0
+scale_factor = 1.36
+
+#L-System sticks 1
+axiom = "X"
+rules = ["F:FF"m
+    "X:F[+X]F[-X]+X"]
+angle = 20.0
+
+#L-System sticks 2
+axiom = "aF"
+rules = ["a:FFFFFv[+++h][---q]fb",
+    "b:FFFFFv[+++h][---q]fc",
+    "c:FFFFFv[+++fa]fd",
+    "d:FFFFFv[+++h][---q]fe",
+    "e:FFFFFv[+++h][---q]fg",
+    "g:FFFFFv[---fa]fa",
+    "h:ifFF",
+    "i:fFFF[--m]j",
+    "j:fFFF[--n]k",
+    "k:fFFF[--o]l",
+    "l:fFFF[--p]",
+    "m:fFn",
+    "n:fFo",
+    "o:fFp",
+    "p:fF",
+    "q:rfF",
+    "r:fFFF[++m]s",
+    "s:fFFF[++n]t",
+    "t:fFFF[++o]u",
+    "u:fFFF[++p]",
+    "v:Fv"]
+angle = 12.0
+
+#L-System sticks 3
+axiom = "aF"
+rules = ["a:FFFFFy[++++n][----t]fb",
+    "b:+FFFFFy[++++n][----t]fc",
+    "c:FFFFFy[++++n][----t]fd",
+    "d:-FFFFFy[++++n][----t]fe",
+    "e:FFFFFy[++++n][----t]fg",
+    "g:FFFFFy[+++fa]fh",
+    "h:FFFFFy[++++n][----t]fi",
+    "i:+FFFFFy[++++n][----t]fj",
+    "j:FFFFFy[++++n][----t]fk",
+    "k:-FFFFFy[++++n][----t]fl",
+    "l:FFFFFy[++++n][----t]fm",
+    "m:FFFFFy[---fa]fa",
+    "n:ofFFF",
+    "o:fFFFp",
+    "p:fFFF[-s]q",
+    "q:fFFF[-s]r",
+    "r:fFFF[-s]",
+    "s:fFfF",
+    "t:ufFFF",
+    "u:fFFFv",
+    "v:fFFF[+s]w",
+    "w:fFFF[+s]x",
+    "x:fFFF[+s]",
+    "y:Fy"]
+angle = 12.0
+
+#L-System Weed
+axiom = "F"
+rules = ["F:FF-[XY]+[XY]",
+    "X:+FY",
+    "Y:-FX"]
+angle = 22.5
+
+#Triangle
+axiom = "F+F+F"
+rules = ["F:F-F+F"]
+angle = 120.0
+
+#Quadratic Gosper
+axiom = "-YF"
+rules = ["X:XFX-YF-YF+FX+FX-YF-YFFX+YF+FXFXYF-FX+YF+FXFX+YF-FXYF-YF-FX+FX+YFYF-",
+    "Y:+FXFX-YF-YF+FX+FXYF+FX-YFYF-FX-YF+FXYFYF-FX-YFFX+FX+YF-YF-FX+FX+YFY"]
+angle = 90.0
+
+#Square Sierpinski
+axiom = "F+XF+F+XF"
+rules = ["X:XF-F+F-XF+F+XF-F+F-X:]
+angle = 90.0
+
+#Crystal
+axiom = "F+F+F+F"
+rules = ["F:FF+F++F+F"]
+angle = 90.0
+
+#Peano Curve
+axiom = "X"
+rules = ["X:XFYFX+F+YFXFY-F-XFYFX",
+    "Y:YFXFY-F-XFYFX+F+YFXFY"]
+angle = 90.0
+
+#Quadratic Snowflake
+axiom = "F"
+rules = ["F:F-F+F+F-F"]
+angle = 90.0
+
+#Quadratic Snowflake 2
+axiom = "FF+FF+FF+FF"
+rules = ["F:F+F-F-F+F"]
+angle = 90.0
+
+#Quadratic Koch Island
+axiom = "F+F+F+F"
+rules = ["F:F+F-F-FFF+F+F-F"]
+angle = 90.0
+distance = 63
+
+#Quadratic Koch Island 2
+axiom = "F+F+F+F"
+rules = ["F:F-FF+FF+F+F-F-FF+F+F-F-FF-FF+F"]
+angle = 90.0
+
+#Quadratic Koch Island 3
+axiom = "X+X+X+X+X+X+X+X"
+rules = ["X:X+YF++YF-FX--FXFX-YF+X",
+    "Y:-FX+YFYF++YF+FX--FX-YF"]
+angle = 45.0
+
+#Koch Curve
+axiom = "F+F+F+F"
+rules = ["F:F+F-F-FF+F+F-F"]
+angle = 90.0
+
+#Board
+axiom = "F+F+F+F"
+rules = ["F:FF+F+F+F+FF"]
+angle = 90.0
+
+#Hilbert
+axiom = "X"
+rules = ["X:-YF+XFX+FY-",
+    "Y:+XF-YFY-FX+"]
+angle = 90.0
+
+#Sierpinski Arrowhead
+axiom = "YF"
+rules = [X:YF+XF+Y",
+    "Y:XF-YF-X"]
+angle = 60.0
+
+#Von Koch Snowflake
+axiom = "F++F++F"
+rules = [F:F-F++F-F"]
+angle = 60.0
+
+#Cross
+axiom = "F+F+F+F"
+rules = ["F:F+FF++F+F"]
+angle = 90.0
+
+# Cross 2
+axiom = "F+F+F+F"
+rules = ["F:F+F-F+F+F"]
+angle = 90.0
+
+#Pentaplexity
+axiom = "F++F++F++F++F"
+rules = ["F:F++F++F|F-F++F"]
+angle = 36.0
+
+#Tiles
+axiom = "F+F+F+F"
+rules = ["F:FF+F-F+F+FF"]
+angle = 90.0
+
+#Rings
+axiom = "F+F+F+F"
+rules = ["F:FF+F+F+F+F+F-F"]
+angle = 90.0
+
+#Dragon Curve
+axiom = "FX"
+rules = ["X:X+YF+",
+    "Y:-FX-Y"]
+angle = 90.0
+
+#Hexagonal Gosper
+axiom = "XF"
+rules = ["X:X+YF++YF-FX--FXFX-YF+",
+    "Y:-FX+YFYF++YF+FX--FX-Y"]
+angle = 60.0
+
+#Levy curve
+axiom = "F"
+rules = ["F:-F++F-"]
+angle = 45.0
+
+#Classic Sierpinski Curve
+axiom = "F--XF--F--XF"
+rules = ["X:XF+F+XF--F--XF+F+X"]
+angle = 45.0
+
+#Krishna Anklets
+axiom = "-X--X"
+rules = ["X:XFX--XFX"]
+angle = 45.0
+
+#Mango Leaf
+axiom = "Y---Y"
+rules = ["X:{F-F}{F-F}--[--X]{F-F}{F-F}--{F-F}{F-F}--",
+    "Y:f-F+X+F-fY"]
+angle = 60.0
+
+#Snake Kolam
+axiom = "F+XF+F+XF"
+rules = ["X:X{F-F-F}+XF+F+X{F-F-F}+X"]
+angle = 90.0
+
+#Kolam
+axiom = "(-D--D)"
+rules = ["A:F++FFFF--F--FFFF++F++FFFF--F",
+    "B:F--FFFF++F++FFFF--F--FFFF++F",
+    "C:BFA--BFA",
+    "D:CFC--CFC"]
+angle = 45.0
+
+#Vechic
+axiom = "F-F-F-F"
+rules = ["F:F-F+F+F-F"]
+angle = 90.0
+
+#Serpinskiy cover
+axiom = "YF"
+rules = ["X:YF+XF+Y", "Y:XF-YF-X"]
+angle = 60.0
+
+#Serpinskiy grid
+axiom = "FXF--FF--FF"
+rules = ["F:FF", "X:--FXF++FXF++FXF--"]
+angle = 60.0
+
+#Mour
+axiom = "LFL-F-LFL"
+rules = ["L:+RF-LFL-FR+", "R:-LF+RFR+FL-"]
+angle = 90.0
+
+#Gilbert
+axiom = "L"
+rules = ["L:+RF-LFL-FR+", "R:-LF+RFR+FL-"]
+angle = 90.0
+
+#Gilbert 2
+axiom = "X"
+rules = ["X:XFYFX+F+YFXFY-F-XFYFX", "Y:YFXFY-F-XFYFX+F+YFXFY"]
+angle = 90.0
+
+#Dragon x2
+axiom = "FX+FX"
+rules = ["X:X+YF+", "Y:-FX-Y"]
+angle = 90.0
+
+#Dragon x3
+axiom = "FX+FX+FX"
+rules = ["X:X+YF+", "Y:-FX-Y"]
+angle = 90.0

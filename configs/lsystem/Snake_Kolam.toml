@@ -1,0 +1,7 @@
+#Snake Kolam
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "F+XF+F+XF"
+rules = ["X:X{F-F-F}+XF+F+X{F-F-F}+X"]
+angle = 90.0

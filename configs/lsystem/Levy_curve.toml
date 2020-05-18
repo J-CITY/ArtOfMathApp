@@ -1,0 +1,7 @@
+#Levy curve
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "F"
+rules = ["F:-F++F-"]
+angle = 45.0

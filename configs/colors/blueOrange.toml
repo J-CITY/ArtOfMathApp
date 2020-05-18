@@ -1,0 +1,6 @@
+colors = [[[100,7,0], [203,107,32], [255,255,237], [0,170,255], [0,2,0]]] # matrix of colors (it use for gen gradient color)
+
+count_step_x = 100                                                        # count of grad steps X
+count_step_y = 10                                                         # count of grad steps Y
+step_size_x = 1                                                           # size steps for every colo X
+step_size_y = 1                                                           # size steps for every colo Y

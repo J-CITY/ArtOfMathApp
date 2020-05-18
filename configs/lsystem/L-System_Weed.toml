@@ -1,0 +1,9 @@
+#L-System Weed
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "F"
+rules = ["F:FF-[XY]+[XY]",
+    "X:+FY",
+    "Y:-FX"]
+angle = 22.5

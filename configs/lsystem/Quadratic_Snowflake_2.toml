@@ -1,0 +1,7 @@
+#Quadratic Snowflake 2
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "FF+FF+FF+FF"
+rules = ["F:F+F-F-F+F"]
+angle = 90.0
