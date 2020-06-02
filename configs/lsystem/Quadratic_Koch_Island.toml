@@ -1,8 +1,0 @@
-#Quadratic Koch Island
-iterations = 2
-distance = 10
-line_width = 3
-axiom = "F+F+F+F"
-rules = ["F:F+F-F-FFF+F+F-F"]
-angle = 90.0
-distance = 63

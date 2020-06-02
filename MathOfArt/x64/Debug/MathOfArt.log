@@ -1,0 +1,235 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (MathOfArt.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  MathOfArt.cpp
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\colorManager.h(47,23): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\colorManager.h(55,23): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\colorManager.h(110,75): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\colorManager.h(126,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\colorManager.h(137,86): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\3rd\SomeLogger.h(219,15): warning C4101: traverse: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\3rd\SomeLogger.h(344,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\3rd\SomeLogger.h(443,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\3rd\SomeLogger.h(525,1): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\3rd\SomeLogger.h(621,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(157,52): warning C4244: аргумент: преобразование "const _Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(157,40): warning C4244: аргумент: преобразование "const _Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(157,28): warning C4244: аргумент: преобразование "const _Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(212,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(285,42): warning C4101: e: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(295,14): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(296,18): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(298,17): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(299,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(401,42): warning C4101: e: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(442,92): warning C4244: аргумент: преобразование "const _Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(442,78): warning C4244: аргумент: преобразование "const _Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(442,64): warning C4244: аргумент: преобразование "const _Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\config.h(450,42): warning C4101: e: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(56,89): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(56,85): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(59,45): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(59,41): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(61,7): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(62,7): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(67,7): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(68,7): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(82,15): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(101,15): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(148,1): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\drawMachine.h(151,1): warning C4244: -=: преобразование "float" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\luaScript.h(64,15): warning C4244: инициализация: преобразование "lua_Number" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(260,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(302,38): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(313,15): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(314,15): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(329,12): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(395,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(440,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(457,15): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(458,15): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(513,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(535,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(613,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(595,10): warning C4101: err: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(636,14): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(708,32): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(674,14): warning C4101: xs: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(674,10): warning C4101: xr: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(750,7): warning C4101: i: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(824,13): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(876,19): warning C4101: e2: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(876,15): warning C4101: e1: неиспользованная локальная переменная
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(923,43): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(925,46): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(927,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(927,43): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(929,23): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(929,15): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(930,18): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(930,15): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(939,53): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(939,45): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(940,32): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(940,29): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(941,37): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(941,29): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1057,28): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1078,81): warning C4244: =: преобразование "_Rep" в "int", возможна потеря данных
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1080,70): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1106,11): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1109,1): warning C4804: >: небезопасное использование типа "bool" в операции
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1110,18): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1113,18): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1116,19): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1131,11): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1135,1): warning C4804: >: небезопасное использование типа "bool" в операции
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1136,18): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1139,18): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1143,20): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1174,19): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1177,30): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1178,19): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1191,43): warning C4244: аргумент: преобразование "_Ty" в "_Tp", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1196,54): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1196,36): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1207,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1301,42): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1302,22): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1326,54): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\Daniil (WORK)\source\repos\MathOfArt\MathOfArt\fractal.h(1326,36): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+  MathOfArt.vcxproj -> C:\Users\Daniil (WORK)\source\repos\MathOfArt\x64\Debug\ArtOfMath.exe

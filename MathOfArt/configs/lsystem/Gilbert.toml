@@ -1,0 +1,7 @@
+#Gilbert
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "L"
+rules = ["L:+RF-LFL-FR+", "R:-LF+RFR+FL-"]
+angle = 90.0

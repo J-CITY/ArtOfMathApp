@@ -1,7 +1,0 @@
-# L-System Bushes 2
-iterations = 2
-distance = 10
-line_width = 3
-axiom = "F"
-rules = ["F:F[+FF][-FF]F[-F][+F]F"]
-angle = 35.0

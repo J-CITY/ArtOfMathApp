@@ -1,0 +1,114 @@
+
+[main]
+width = 1920
+height = 1080
+seed = -1
+type = "ATTRACTOR" #FERN, LANDSCAPE,LIGHTNING, ATTRACTOR, DLA, MANDELBROT, JULIA, NEWTON, LAPUNOV, LSYSTEM, BROWNIAN
+is_video = false
+is_slides = false
+out_path = "out"
+thread_size = 8
+frames_copy = 10 # put frame copies in video
+fps = 10
+bg_color = [0, 0, 0]
+
+[mandelbrot]
+dim = 2
+center = [0.0, 0.0]
+center_to = [0.0, 0.0] # for video or slides
+center_step = [0.0, 0.0] # for video or slides
+range = [3.0, 2.5]
+range_to = [0.0, 0.0] # for video or slides
+range_step = [0.0, 0.0] # for video or slides
+max_iterations = 312
+is_cloud = false
+cloud_step = 1
+#script = "configs/script/test.lua" # if use script that ignore dim
+
+[lapunov]
+# thish mode work in range [0, 4]
+# dim not support
+center = [2.0, 2.0]
+center_to = [0.0, 0.0] # for video or slides
+center_step = [0.0, 0.0] # for video or slides
+range = [3.0, 3.0]
+range_to = [0.0, 0.0] # for video or slides
+range_step = [0.0, 0.0] # for video or slides
+max_iterations = 1000
+pattern = "AABABBA"
+xn = 0.5
+rotate_angle = 0.0
+rotate_angle_to = 0.0
+rotate_angle_step = 0.0
+
+[julia]
+dim = 3
+range = [2.0, 2.0]
+range_to = [0.0, 0.0] # for video or slides
+range_step = [0.0, 0.0] # for video or slides
+center = [0.28, 0.0113]
+center_to = [0.0, 0.0] # for video or slides
+center_step = [0.0, 0.0] # for video or slides
+max_iterations = 512
+c = [0.285, 1.0] #optional, if c is null, it calculate by r
+r = 0.7885
+a = 0.0 # need to calc a
+a_to = 0.0 # for video or slides
+a_step = 0.0 # for video or slides
+is_cloud = true
+cloud_step = 1
+#script = "configs/script/test.lua" # if use script that ignore dim
+
+[newton]
+# dim not support
+center = [0.0, 0.0]
+center_to = [0.0, 0.0] # for video or slides
+center_step = [0.0, 0.0] # for video or slides
+range = [2.0, 2.0]
+range_to = [0.0, 0.0] # for video or slides
+range_step = [0.0, 0.0] # for video or slides
+max_iterations = 21312
+coefs = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0] # polynom 4 dim
+
+[lsystem]
+rule = "configs/lsystem/1.toml"
+
+[brownian]
+circle_radius = 3
+line_width = 1
+max_iterations = 10000
+distance = 30
+
+[dla]
+radius = 2
+max_iterations = 3000
+
+[attractor]
+max_iterations = 1000000
+scale = 100
+color_scale = 30.0
+script = "configs/script/attractor.lua"
+
+[fern]
+max_iterations = 1000000
+scale_x = 100.0
+scale_y = 100.0
+params = [
+    [0.0, 0.0, 0.0, 0.16, 0.0, 0.0, 0.01],
+    [0.85, 0.04, -0.04, 0.85, 0, 1.60, 0.85],
+    [0.20, -0.26, 0.23, 0.22, 0, 1.60, 0.07],
+    [-0.15, 0.28, 0.26, 0.24, 0, 0.44, 0.07]
+]
+
+[landscale]
+is2d = true
+roughness = 0.5
+displacement = 0.3
+scale_factor = 500.0
+
+[lightning]
+pen_size = 10
+spred = 5
+
+[color]
+sheme = "configs/colors/rainbow.toml"

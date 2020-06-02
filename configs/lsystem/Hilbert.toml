@@ -1,8 +1,0 @@
-#Hilbert
-iterations = 2
-distance = 10
-line_width = 3
-axiom = "X"
-rules = ["X:-YF+XFX+FY-",
-    "Y:+XF-YFY-FX+"]
-angle = 90.0

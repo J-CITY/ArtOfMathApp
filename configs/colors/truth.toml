@@ -1,7 +1,0 @@
-colors = [[[110, 14, 151], [93, 81, 175]],
-    [[241, 125, 218], [228, 19, 195]]]
-
-count_step_x = 100                                                        # count of grad steps X
-count_step_y = 10                                                         # count of grad steps Y
-step_size_x = 1                                                           # size steps for every colo X
-step_size_y = 1                                                           # size steps for every colo Y

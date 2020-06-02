@@ -1,7 +1,0 @@
-#Krishna Anklets
-iterations = 2
-distance = 10
-line_width = 3
-axiom = "-X--X"
-rules = ["X:XFX--XFX"]
-angle = 45.0

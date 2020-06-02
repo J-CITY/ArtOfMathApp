@@ -1,0 +1,6 @@
+*.obj
+*.exe
+*.tlog
+*.user
+./Debug
+./x64

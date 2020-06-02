@@ -1,8 +1,0 @@
-#Dragon Curve
-iterations = 2
-distance = 10
-line_width = 3
-axiom = "FX"
-rules = ["X:X+YF+",
-    "Y:-FX-Y"]
-angle = 90.0

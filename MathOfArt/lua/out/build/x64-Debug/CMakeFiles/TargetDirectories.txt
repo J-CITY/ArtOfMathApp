@@ -1,0 +1,3 @@
+C:/Users/Daniil (WORK)/source/repos/MathOfArt/MathOfArt/ArtOfMath/lua/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Daniil (WORK)/source/repos/MathOfArt/MathOfArt/ArtOfMath/lua/out/build/x64-Debug/CMakeFiles/LuaLib.dir
+C:/Users/Daniil (WORK)/source/repos/MathOfArt/MathOfArt/ArtOfMath/lua/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

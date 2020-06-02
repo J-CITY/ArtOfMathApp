@@ -1,0 +1,10 @@
+#Kolam
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "(-D--D)"
+rules = ["A:F++FFFF--F--FFFF++F++FFFF--F",
+    "B:F--FFFF++F++FFFF--F--FFFF++F",
+    "C:BFA--BFA",
+    "D:CFC--CFC"]
+angle = 45.0

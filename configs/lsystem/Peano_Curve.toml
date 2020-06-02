@@ -1,8 +1,0 @@
-#Peano Curve
-iterations = 2
-distance = 10
-line_width = 3
-axiom = "X"
-rules = ["X:XFYFX+F+YFXFY-F-XFYFX",
-    "Y:YFXFY-F-XFYFX+F+YFXFY"]
-angle = 90.0

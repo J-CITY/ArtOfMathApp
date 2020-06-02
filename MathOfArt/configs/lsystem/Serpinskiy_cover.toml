@@ -1,0 +1,7 @@
+#Serpinskiy cover
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "YF"
+rules = ["X:YF+XF+Y", "Y:XF-YF-X"]
+angle = 60.0

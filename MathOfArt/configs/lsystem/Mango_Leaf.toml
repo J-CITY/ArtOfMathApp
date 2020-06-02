@@ -1,0 +1,8 @@
+#Mango Leaf
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "Y---Y"
+rules = ["X:{F-F}{F-F}--[--X]{F-F}{F-F}--{F-F}{F-F}--",
+    "Y:f-F+X+F-fY"]
+angle = 60.0

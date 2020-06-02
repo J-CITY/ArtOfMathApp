@@ -1,8 +1,0 @@
-# L-System Bushes 4
-iterations = 2
-distance = 10
-line_width = 3
-axiom = "FX"
-rules = ["X:>[-FX]+FX"]
-angle = 40.0
-scale_factor = 1.36

@@ -1,0 +1,8 @@
+#Quadratic Koch Island 3
+iterations = 2
+distance = 10
+line_width = 3
+axiom = "X+X+X+X+X+X+X+X"
+rules = ["X:X+YF++YF-FX--FXFX-YF+X",
+    "Y:-FX+YFYF++YF+FX--FX-YF"]
+angle = 45.0

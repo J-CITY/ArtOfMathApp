@@ -1,7 +1,0 @@
-#Pentaplexity
-iterations = 2
-distance = 10
-line_width = 3
-axiom = "F++F++F++F++F"
-rules = ["F:F++F++F|F-F++F"]
-angle = 36.0

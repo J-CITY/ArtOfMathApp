@@ -1,8 +1,0 @@
-#Hexagonal Gosper
-iterations = 2
-distance = 10
-line_width = 3
-axiom = "XF"
-rules = ["X:X+YF++YF-FX--FXFX-YF+",
-    "Y:-FX+YFYF++YF+FX--FX-Y"]
-angle = 60.0
